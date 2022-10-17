@@ -2,6 +2,8 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vitejs/plugin-vue': ^3.1.0
+  cross-env: ^7.0.3
+  dotenv: ^16.0.3
   eslint: ^8.0.1
   eslint-config-standard: ^17.0.0
   eslint-plugin-import: ^2.25.2
@@ -16,6 +18,8 @@ dependencies:
 
 devDependencies:
   '@vitejs/plugin-vue': 3.1.2_vite@3.1.7+vue@3.2.40
+  cross-env: 7.0.3
+  dotenv: 16.0.3
   eslint: 8.25.0
   eslint-config-standard: 17.0.0_a432y4gghichzqs5hexeiieuzm
   eslint-plugin-import: 2.26.0_eslint@8.25.0
@@ -341,6 +345,14 @@ packages:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
+  /cross-env/7.0.3:
+    resolution: {integrity: sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==}
+    engines: {node: '>=10.14', npm: '>=6', yarn: '>=1'}
+    hasBin: true
+    dependencies:
+      cross-spawn: 7.0.3
+    dev: true
+
   /cross-spawn/7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
     engines: {node: '>= 8'}
@@ -424,6 +436,11 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       esutils: 2.0.3
+    dev: true
+
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
     dev: true
 
   /es-abstract/1.20.4:

@@ -17,6 +17,7 @@
         "vue"
     ],
     "rules": {
-        "no-undef" : ["warn"]
+        "no-undef" : ["warn"],
+        "import/no-absolute-path" : ["off"]
     }
 }
